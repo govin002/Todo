@@ -7,8 +7,8 @@ function List()
     return (
         <> 
         
-        <div className=' flex justify-center  bg-[#131829] w-xl md:w-xl  '>
-        <div className='w-md md:w-lg '>
+        <div className=' flex justify-center   bg-[#131829] w-xl md:w-xl  '>
+        <div className='w-sm md:w-lg '>
             <ul>
 
                 <div className='flex display row w-full my-4 p-2'>

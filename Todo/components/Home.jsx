@@ -15,7 +15,7 @@ function Home() {
    <div className='bg-black m-0 p-2 h-screen'>
     <div className='flex flex-row'>
     <div className='text-white  flex items-center mx-2 mt-4 md:mx-2 '><GiNinjaHead className='text-3xl text-yellow-200 hover:text-green-200' /></div>
-        <div> <Link to='/' className='text-white border border-yellow-200 p-2 hover:bg-yellow-100'>Logout</Link></div>
+    
       <div className='flex flex-col'>
         <div className='text-white flex items-center mx-4 mt-4 md:mx-4 '><h1> Govinda Prasad Shrestha</h1> </div>
         {/* <div className='text-white flex mx-4  '> <p>Hope you are doing good.</p> </div> */}
@@ -30,11 +30,16 @@ function Home() {
     <Entry/>
     <div className='flex justify-center  m-2 p-2'>
     <List/>
-    </div>
     
     
-    </div>
+
    </div>
+   
+    
+    </div>
+    <div className='flex flex-row-reverse'><Link to='/' className='   text-white border  rounded border-yellow-200 px-2    py-1 hover:bg-yellow-100 hover:text-black '>Logout</Link>
+    </div>
+     </div>
    
     </>
   )
