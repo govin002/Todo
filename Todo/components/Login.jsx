@@ -52,7 +52,7 @@ function Login({ onLogin }) {
             required
           />
         </div>
-        <button type="submit" className='text-white  hover:text-black justify-center border border-yellow-200 px-2 rounded hover:bg-yellow-100'>Login</button> 
+        <button type="submit" className='text-white  hover:text-black justify-center border border-yellow-200 px-2 mx-3 rounded hover:bg-yellow-100'>Login</button> 
       </form>
     </div>
       
